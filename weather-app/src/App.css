@@ -1,0 +1,110 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?weather') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.search {
+  margin: 20px 0;
+}
+
+input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2980b9;
+}
+
+button {
+  padding: 12px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #1abc9c;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  font-size: 2rem;
+  color: #2980b9;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.forecast-day {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-day p {
+  margin: 5px 0;
+  color: #2c3e50;
+}
+
+.forecast-day p:first-child {
+  font-weight: bold;
+}
